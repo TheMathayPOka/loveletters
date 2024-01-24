@@ -7,6 +7,7 @@ body {
     background-color: #99BC85;
     display: grid;
     place-items: center;
+    overflow-y: hidden;
 }
 
 
@@ -53,6 +54,7 @@ body {
     animation-name: letteropen;
     animation-duration: 1s;
     animation-timing-function: ease;
+    height: 90vh;
 }
 .Letter{
     height: 750px;
@@ -108,8 +110,9 @@ body {
 }
 
 .credit{
-    position: relative;
-    top: -300px;
+    position: absolute;
+    top: 700px;
+    right: 5px;
     font-family: 'Indie Flower',sans-serif;
 }
 
